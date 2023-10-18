@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: black;
+  width: 100%;
+  position: fixed;
+  z-index: 5;
+}
+header .navigation a {
+  color: white;
+}
+header .navigation a:hover {
+  color: white;
+}
+
+#section1 {
+  height: 600px;
+  background-color: rgb(60, 159, 159);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#section1 div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+#section1 div h1 {
+  font-size: 80px;
+  color: white;
+}
+#section1 div h3 {
+  font-size: 40px;
+  color: white;
+}
+#section1 div p {
+  font-size: 20px;
+  color: white;
+}
+#section1 div button {
+  height: 45px;
+  width: 300px;
+  background-color: rgb(234, 43, 106);
+  border: none;
+  color: white;
+}
+#section1 div button:hover {
+  background-color: rgb(175, 67, 85);
+}
+
+.section2 {
+  background-image: url(https://media.istockphoto.com/id/1187092638/tr/vekt%C3%B6r/farkl%C4%B1-boyutlarda-a%C3%A7%C4%B1k-gri-dairelerden-yap%C4%B1lm%C4%B1%C5%9F-diki%C5%9Fsiz-arka-plan-beyaz-%C3%BCzerine-kaotik.jpg?s=1024x1024&w=is&k=20&c=EXraf_RGIsfKB2M7CWJFff6XTFGrVwByenClbtdy9s4=);
+  background-size: cover;
+  width: 100%;
+}
+.section2 .container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.section2 h1 {
+  font-size: 50px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  color: rgb(60, 159, 159);
+}
+.section2 .row h5 {
+  font-size: 20px;
+}
+.section2 .row p {
+  font-size: 15px;
+}
+
+.row .card {
+  height: 400px;
+  background-color: rgb(60, 159, 159);
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.row .card i {
+  font-size: 100px;
+}
+.row .card h5 {
+  font-size: 20px;
+}
+.row .card p {
+  font-size: 15px;
+}
+
+.section3 {
+  background-image: url(https://media.istockphoto.com/id/1187092638/tr/vekt%C3%B6r/farkl%C4%B1-boyutlarda-a%C3%A7%C4%B1k-gri-dairelerden-yap%C4%B1lm%C4%B1%C5%9F-diki%C5%9Fsiz-arka-plan-beyaz-%C3%BCzerine-kaotik.jpg?s=1024x1024&w=is&k=20&c=EXraf_RGIsfKB2M7CWJFff6XTFGrVwByenClbtdy9s4=);
+  background-size: cover;
+  width: 100%;
+}
+.section3 .reports {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(60, 159, 159);
+  color: white;
+  height: 200px;
+}
+.section3 .container .a {
+  font-size: 50px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  color: rgb(60, 159, 159);
+}
+.section3 .container .row .table {
+  background-color: rgb(180, 177, 177);
+  height: 530px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(71, 70, 70);
+  font-size: 25px;
+  gap: 20px;
+}
+.section3 .container .row .table .tableheader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  width: 100%;
+  color: white;
+  font-size: 25px;
+}
+.section3 .container .row .table .payment {
+  width: 100%;
+  font-size: 40px;
+  color: white;
+  background-color: darkgreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section3 .container .row .table button {
+  background-color: rgb(204, 52, 52);
+  width: 100%;
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+}
+.section3 .container .row .table button:hover {
+  background-color: red;
+}
+.section3 .container .row .table .btn2 {
+  background-color: rgb(62, 62, 146);
+  width: 100%;
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+}
+.section3 .container .row .table .btn2:hover {
+  background-color: blue;
+}
+.section3 .container .row .table .btn3 {
+  background-color: rgb(53, 135, 53);
+  width: 100%;
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+}
+.section3 .container .row .table .btn3:hover {
+  background-color: green;
+}
+
+.section4 {
+  background-image: url(https://media.istockphoto.com/id/1187092638/tr/vekt%C3%B6r/farkl%C4%B1-boyutlarda-a%C3%A7%C4%B1k-gri-dairelerden-yap%C4%B1lm%C4%B1%C5%9F-diki%C5%9Fsiz-arka-plan-beyaz-%C3%BCzerine-kaotik.jpg?s=1024x1024&w=is&k=20&c=EXraf_RGIsfKB2M7CWJFff6XTFGrVwByenClbtdy9s4=);
+  background-size: cover;
+  width: 100%;
+}
+.section4 .title .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(60, 159, 159);
+  height: 200px;
+  color: white;
+  font-size: 40px;
+}
+.section4 .title .row .head4 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.section4 .container h1 {
+  font-size: 50px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  color: rgb(60, 159, 159);
+}
+.section4 .container .row button {
+  background-color: rgb(60, 159, 159);
+  width: 150px;
+  font-size: 20px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+.section4 .container .row button:hover {
+  background-color: blue;
+}
+.section4 .container .row form {
+  margin-bottom: 20px;
+}
+.section4 .container .row .row {
+  margin-bottom: 20px;
+}
+
+.section5 .header5 {
+  width: 100%;
+  background-color: black;
+}
+.section5 .header5 p {
+  margin-right: 0px;
+  color: white;
+  font-size: 20px;
+  height: 50px;
+}
+.section5 .container img {
+  width: 100%;
+  height: 100px;
+}
